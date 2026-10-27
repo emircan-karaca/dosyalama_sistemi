@@ -8,6 +8,6 @@ pydantic-settings==2.7.0
 passlib[bcrypt]==1.7.4
 bcrypt==4.2.1
 cryptography==44.0.0
-smbprotocol==1.15.0
+smbprotocol==1.17.0
 python-multipart==0.0.20
 email-validator==2.2.0
