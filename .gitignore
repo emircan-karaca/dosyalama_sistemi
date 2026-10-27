@@ -7,3 +7,19 @@ node_modules/
 data/
 *.egg-info/
 dosyalama/
+
+# macOS / editörler
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Loglar ve test çıktıları
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Next.js
+next-env.d.ts
+*.tsbuildinfo
