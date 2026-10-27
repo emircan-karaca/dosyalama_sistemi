@@ -1,0 +1,31 @@
+name: Hata bildirimi
+description: Beklenmeyen bir davranışı bildirin
+labels: [bug]
+body:
+  - type: textarea
+    id: ne-oldu
+    attributes:
+      label: Ne oldu?
+      description: Hatayı ve beklediğiniz davranışı kısaca anlatın.
+    validations:
+      required: true
+  - type: textarea
+    id: adimlar
+    attributes:
+      label: Tekrar etme adımları
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: depolama
+    attributes:
+      label: Depolama modu
+      options: [smb, mount]
+  - type: textarea
+    id: loglar
+    attributes:
+      label: Loglar
+      description: "`docker compose logs backend` çıktısının ilgili kısmı"
+      render: shell
