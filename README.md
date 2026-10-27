@@ -1,5 +1,12 @@
 # Dosyalama Sistemi
 
+[![CI](https://github.com/emircan-karaca/dosyalama_sistemi/actions/workflows/ci.yml/badge.svg)](https://github.com/emircan-karaca/dosyalama_sistemi/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-15-000000?logo=nextdotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-4169E1?logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
+
 SMB/CIFS paylaşımı üzerinde çalışan, Google Drive benzeri web arayüzlü dosya yönetim sistemi. Kullanıcı başına ayrı depolama alanı, paylaşım, çöp kutusu, sürüm geçmişi ve admin paneli içerir.
 
 ---
